@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css.link-->
+    <link rel="stylesheet" href="./win.css">
+    <!--boxicons link-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>BuildINT</header>
+        <div class="logo"></div>
+
+        <ul class="menu">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i><span>DashBoard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-group'></i><span>My Clients</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-spreadsheet'></i><span>My Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-user'></i><span>My Employees</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-file'></i><span>My Timesheet</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-file'></i><span>Approval</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-report'></i><span>Reports</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="header-wrapper">
+            <div class="left-side">
+                <i class='bx bx-menu'></i>
+                <i class='bx bx-search'></i>
+            </div>
+            <div class="right-side">
+                <i class='bx bx-bell'></i>
+                <span class="logo-name">AMALAMANI S</span>
+                <i class='bx bx-user-circle'></i>
+                <i class='bx bxs-chevron-down'></i>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Edit Project</h2>
+            <h3>My Projects/Create Project</h3>
+            <form action="#">
+
+                <div class="form-first">
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Select Client</label>
+                            <input type="text" placeholder="Select Client" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Project Name</label>
+                            <input type="text" placeholder="Project Name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Status</label>
+                            <input type="text" placeholder="Active" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Select Project Manager</label>
+                            <input type="text" placeholder="NA" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Created On</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Start Date</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input-field">
+                            <label>End Date</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Total Hours</label>
+                            <input type="number" placeholder="00:00 Hrs" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container-1">
+            <span class="task">Create Task </span>
+            <span>Create Team</span>
+            <hr>
+            <form action="#">
+                <div class="form-first-1">
+                    <div class="fields-1">
+                        <div class="input-field-1">
+                            <label>Task</label>
+                            <input type="text" placeholder="UI/UX" required>
+                        </div>
+                        <div class="input-field-1">
+                            <label>No.of Hours For This Task</label>
+                            <input type="text" placeholder="40 hrs" required>
+                        </div>
+                        <div class="input-field-1">
+                            <label>Start Date</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="input-field-1">
+                            <label>Completion date</label>
+                            <input type="date" required>
+                        </div>
+                        <button class="add">
+                            <span class="button+">+Add</span>
+                        </button>
+                    </div>
+                    <div class="container-2">
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Task</th>
+                                        <th>No.of Hours For This Task</th>
+                                        <th>Start Date</th>
+                                        <th>Completion Date</th>
+                                    </tr>
+                                    <tr>
+                                        <td>UI/UX</td>
+                                        <td>40 hrs</td>
+                                        <td>01/08/2023</td>
+                                        <td>01/08/2023</td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <button class="update">
+                        <span class="up">Update</span>
+                    </button>
+                </div>
+</body>
+
+</html>
